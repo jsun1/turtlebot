@@ -1,0 +1,6 @@
+<launch>
+  <include file="my_nav.launch">
+    <arg name="v_max" value="0.1"/>
+    <arg name="om_max" value="0.2"/>
+  </include>
+</launch>
